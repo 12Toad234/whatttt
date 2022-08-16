@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Brickbattle Game </title>
+    <style>
+      html {
+        background-position: 0 40px;
+        background-image: url(https://cdn.discordapp.com/attachments/925627235124269161/980444010680315944/Screenshot_20220220-0859193.png);
+      }
+      @font-face {
+    font-family: 'hmm';
+    src: local('Comic Sans MS'), local('ComicSansMS-Regular'),
+        url(http://allfont.ru/cache/fonts/comic-sans-ms_53a8778a817839ef2dbc5dc94ce14334.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/comic-sans-ms_53a8778a817839ef2dbc5dc94ce14334.ttf) format('truetype');
+        }
+        #header {
+          z-index: -1;
+          position: absolute;
+            width: 100%; height: 40px;
+            background: url(https://tr.rbxcdn.com/deb6744d76e6b13d5e63084976b65340/64/64/Image/Png);
+            background-size: 32px;
+            
+        }
+        * {
+          font-family: 'hmm';
+            margin: 0 auto; padding: auto;
+        }
+        li {
+          list-style: none;
+          list-style-position: outside;
+        }
+        a {text-decoration: none;}
+
+        body {
+            position: relative;
+        }
+        .hi1 {
+            position: absolute;
+            width: 200px; height: 300px;
+            left: 1575px; top: 370px;
+            background: url(https://i.imgur.com/Ct4on6c.jpg) no-repeat;
+            background-size: 100% 100%;
+        }
+        #header > p {
+          font-size: 20px;
+          position: absolute;
+          width: auto;
+           height: 23px;
+           top: 17px;
+        color: black; background-color: white;
+        }
+
+        #section {
+          z-index: -10;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+ 
+video {
+  position: fixed;
+  top: -15px;
+  left: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  background: url('../images/bg.png') no-repeat;
+  background-size: cover;
+  z-index: -100;
+}
+ 
+.bg-white {
+
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.4;
+  top: 40px;
+  z-index: 100;
+}
+    </style>
+        <style>
+          
+          #main_gnb > ul {
+
+            position: absolute;
+            top: 10px;
+            left: 400px;
+           overflow: hidden; }
+          #main_gnb > ul > li { float: left; }
+          #main_gnb > ul > li > a {
+            background: white;
+            color: black;
+              display: block;
+              padding: 2px 10px;
+              border: 1px solid black;
+          }
+          #main_gnb > ul > li > a:hover {
+              background: black;
+              color: white;
+          }
+          #main_gnb > ul > li:first-child > a { border-radius: 10px 0 0 10px; }
+          #main_gnb > ul > li:last-child > a  { border-radius: 0 10px 10px 0; }
+          .twitter-follow-button {
+            position: absolute; left: 300px;
+          }
+      </style>
+      <style>
+        div.logo {
+            position: absolute;
+            left: 100px;
+            width: 322px; height: 40px;
+            background: url(https://i.imgur.com/Y7fAFGG.png);
+            background-size: 100% 100%;
+        }
+
+        article.main_article {
+            position: absolute;
+            width: 70%;
+            top: 420px;
+            left: 210px;
+            margin-top: 10px;
+            padding: 20px;
+            color: white;
+            stroke: black;
+            stroke-width: 3px;
+        }
+        article.main_article > h1, p {
+            stroke: black;
+            stroke-width: 3px;
+            
+        }
+
+        div.logobig {
+          position: absolute;
+            width: 1110px; height: 138px;
+            left: 50px;
+            top: 300px;
+            background: url(https://i.imgur.com/TVN7NYP.png);
+            background-size: 100% 100%;
+        }
+        div.goplay {
+          position: absolute;
+            width: 170px; height: 101px;
+            left: 50px;
+            top: 440px;
+            background: url(https://i.imgur.com/VepnSyD.png);
+            background-size: 100% 100%;
+        }
+      </style>
+  </head>
+  <body>
+  <header id="header">
+  </header>
+  <nav id="main_gnb">
+    <a href="saaaa2.html"><div class="logo"></div></a>
+
+    <ul>
+      <li><a href="https://www.roblox.com/games/6588393803/BrickBattle-Game">Play</a></li>
+      <li><a href="https://twitter.com/12Toad234">Follow Sanche(@12Toad234) or else</a></li>
+    </ul>
+</nav>
+    <section id="section">
+      <video playsinline autoplay muted loop>
+        <source src="https://github.com/12Toad234/whatttt/blob/main/2022-08-02%2021-40-50_Trim%20(1).mp4?raw=true" type="video/mp4">
+      </video>
+      <div class="bg-white">
+      </div>
+    </section>
+
+    <About>
+      <div class="logobig"></div>
+      <div class="logobig"></div>
+      <a href="https://www.roblox.com/games/6588393803/BrickBattle-Game"><div class="goplay"></div></a>
+      <article class="main_article">
+        <h1>Brickbattle</h1>
+        <p>The actually brickbattle, was made by Shedletsky, is the oldest ROBLOX combat genre, beginning in 2006.
+            starter item is Paintball Gun, Rocket Launcher, Sword, Trowel, SlingShot, SuperBall(end)
+        </p>
+    </About>
+</body>
+</html>
